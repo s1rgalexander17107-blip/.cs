@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perdoncito</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="apology-card" aria-live="polite">
+      <div class="question-panel" id="questionPanel">
+        <span class="soft-badge">Una pregunta importante</span>
+        <h1>¿Me disculpas? 🥺</h1>
+        <p>Prometo compensar el tiempo que te hice esperar.</p>
+
+        <div class="button-area" id="buttonArea">
+          <button class="btn btn-yes" id="yesButton" type="button">Sí ❤️</button>
+          <button class="btn btn-no" id="noButton" type="button">No 😒</button>
+        </div>
+      </div>
+
+      <div class="answer-panel hidden" id="answerPanel">
+        <div class="heart-animation" aria-hidden="true">❤️</div>
+        <h2>¡Gracias! ❤️</h2>
+        <p>Intentaré no hacerte esperar mucho tiempo. 🥹✨</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
